@@ -4,12 +4,10 @@
 }
 
 .name-grid{
-    border: 2px solid black;
+    border: 0.5px solid black;
     min-height: 50ch;
-    min-width: 50ch;
-    margin-top: 5ch;
-
-    
+    border-radius: 1ch;
+   
 }
 
 .name-container{
@@ -21,11 +19,6 @@
 .float-child{
     width: 40%;
     float: left;
-
-    border: 2px solid black;
-    margin-top: 5ch;
-    margin-left: 2ch;
-
 }
 
 .teams-generated{
@@ -36,6 +29,27 @@
     margin-top: 2ch;
 }
 
-.team{
-    border: 2px solid black;
+
+
+.card{
+    border: 0.5px solid rgb(73, 72, 72);
+    border-radius: 1ch;
+    padding: 2ch;
+    margin-left: 2ch;
+}
+
+.teams-container{
+    margin-top: 3ch;
+}
+
+li {
+    list-style-type: none;
+    padding: 1ch;
+}
+
+ul{
+    padding: 0!important;
+}
+h4{
+    margin-top:0;
 }
