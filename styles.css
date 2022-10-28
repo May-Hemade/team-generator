@@ -1,0 +1,41 @@
+
+.container{
+    padding: 2ch;
+}
+
+.name-grid{
+    border: 2px solid black;
+    min-height: 50ch;
+    min-width: 50ch;
+    margin-top: 5ch;
+
+    
+}
+
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 50ch;
+}
+
+.float-child{
+    width: 40%;
+    float: left;
+
+    border: 2px solid black;
+    margin-top: 5ch;
+    margin-left: 2ch;
+
+}
+
+.teams-generated{
+    display: flex;
+    
+}
+.buttons{
+    margin-top: 2ch;
+}
+
+.team{
+    border: 2px solid black;
+}
